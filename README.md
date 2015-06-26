@@ -6,7 +6,7 @@ I think nobody real use this project after I use this ....
 
 2. When you content had img element, the  wysihtml5 will lost the property src. find out why very difficult and cost lot of time. The reason is wysihtml5.dom.isLoadedImage return undefined. I don't know how wysihtml5.dom.isLoadedImage work and what is the use of, so I just make it return True. It work fine, Oh my god again!
 
-I will raplace this use anyone rich text as soon as possible!
+I will raplace this use anyone rich text in my project as soon as possible!
 
 
 # Overview
