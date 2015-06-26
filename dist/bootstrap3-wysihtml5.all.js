@@ -14624,8 +14624,8 @@ function program17(depth0,data) {
         // of the WYISYWG don't break because 'toolbar' is already defined
         options = $.extend(true, {}, options);
         options.toolbar = this.toolbar[0];
-        
-        this.initializeEditor(this.el[0], options);
+        // modify by bigzhu: add return for get wysihtml5 editor
+        return this.initializeEditor(this.el[0], options);
       },
 
 

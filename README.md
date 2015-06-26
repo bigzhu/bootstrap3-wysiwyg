@@ -1,3 +1,8 @@
+# Fix some terrible bug
+I think nobody real use this project
+1. You can't get wysihtml5 editor, I ask question in stackoverflow: [this](http://stackoverflow.com/questions/31016428/bootstrap3-wysiwyg-editor-object-aways-undefined/31016780#31016780), at the end I fix this bug by myself, the author forgot return.
+
+
 # Overview
 
 Bootstrap-wysihtml5 is a javascript plugin that makes it easy to create simple, beautiful wysiwyg editors with the help of [wysihtml5](https://github.com/xing/wysihtml5) and [Twitter Bootstrap](http://twitter.github.com/bootstrap/).
