@@ -7326,6 +7326,8 @@ wysihtml5.dom.getAttributes = function(node) {
 */
 
 wysihtml5.dom.isLoadedImage = function (node) {
+  //modify by bigzhu : must return true; make sure load image ok
+  return true
   try {
     return node.complete && !node.mozMatchesSelector(":-moz-broken");
   } catch(e) {

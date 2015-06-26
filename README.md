@@ -1,6 +1,9 @@
-# Fix some terrible bug
-I think nobody real use this project
-1. You can't get wysihtml5 editor, I ask question in stackoverflow: [this](http://stackoverflow.com/questions/31016428/bootstrap3-wysiwyg-editor-object-aways-undefined/31016780#31016780), at the end I fix this bug by myself, the author forgot return.
+# Fix some terrible bug by bigzhu
+I think nobody real use this project after I use this ....
+1. You can't get wysihtml5 editor, I ask question in stackoverflow: [this](http://stackoverflow.com/questions/31016428/bootstrap3-wysiwyg-editor-object-aways-undefined/31016780#31016780), I fix this bug by myself at the end , the author forgot return, Oh my god.
+2. When you content had img element, the  wysihtml5 will lost the property src. find out why very difficult and cost lot of time. The reason is wysihtml5.dom.isLoadedImage return undefined. I don't know how wysihtml5.dom.isLoadedImage work and what is the use of, so I just make it return True. It work fine, Oh my god again!
+
+I will raplace this use anyone rich text as soon as possible!
 
 
 # Overview
